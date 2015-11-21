@@ -1,0 +1,25 @@
+html
+    head
+        style.
+            * {
+                font-family: Arial;
+            }
+            .button {
+                display: block;
+                color: white;
+                font-size: 25px;
+                padding: 15px 30px;
+                max-width: 150px;
+                background-color: #282828;
+                text-align: center;
+            }
+            .button:hover {
+                color: #282828;
+                background-color: #C8C8C8;
+            }
+    body
+        if authenticated 
+            a.button(href="/logout") logout
+        else
+            a.button(href="/login") login
+

@@ -9,6 +9,10 @@
   "author": "Quentin Devauchelle",
   "license": "MIT",
   "dependencies": {
-    "csv": "^0.4.6"
+    "csv": "^0.4.6",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth2": "^0.1.6"
   }
 }
